@@ -51,4 +51,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: ${{ github.event_name != 'pull_request' }}
-          tags: user/app:latest
+          tags: keenanjohnson/ros2_rust_docker:latest
